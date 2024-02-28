@@ -1,0 +1,451 @@
+*{
+	box-sizing: border-box;
+}
+
+.container{
+	width:960px;
+    margin:0px auto;
+}
+body{
+	font-family:'Lato';
+	background-image: url(images/dld6.jpg);
+	background-size: cover;
+}
+.left-top-bar-column{width:33.3%;
+    height:100px;
+    float:left;
+    text-align: center;
+}
+.left-middle-bar-column{
+    width:33.3%;
+    height:100px;
+    float:left;
+}
+.right-top-bar-column i{
+	padding-left: 20px;
+}
+.right-top-bar-column{
+	width:33.32%;
+	height:100px;
+	float:right;
+	text-align: center;
+}
+/*.header{
+	position: fixed;
+}*/
+.nav-bar{
+	clear:both;
+	width: 100%;
+	height: 50px;
+	background: black;
+	text-align: center;
+}
+.nav-bar ul{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  padding: 10px 10px 10px 10px;
+  display:inline-block;
+}
+.nav-bar li{
+  float:left;
+}
+.nav-bar li a{
+	display:black;
+	color:white;
+	padding:14px 16px;
+	text-decoration: none;
+}
+.hero{
+	width:100%;
+	height:500px;
+	background-color:#FFF3CF;
+	background-image: url('../images/student.png');
+	background-size: cover;
+}
+.hero p{}
+.paragraph{
+	width:40%;
+	height:150px;
+	color:white:;
+	background: blueviolet;
+	padding-left: 20px;
+}
+.paragraph button{
+	background: #FFF3CF;
+	color:black;
+	padding:10px 10px 10px 10px;
+}
+.paragraph button:hover{
+	background: white;
+}
+.middle{
+	width:100%;
+	height:300px;
+	color:black;
+	text-align: center;
+}
+.middle h1{
+/*   text-transform:uppercase;*/
+}
+.middle p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.middle button{
+	background:#FFF3CF;
+	color:black;
+	padding: 20px 20px 20px 20px;
+}
+.middle button:hover{
+    font-size:60px;
+
+}
+.left-column{
+	width:40%;
+	height:455px;
+	float:left;
+}
+.my-pic{
+	width:100%;
+	height:455px;
+}
+.right-column{
+	width:50.5%;
+	height:455px;
+	background-color: #FFF3CF;
+	float:right;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.list{
+	width:100%;
+	height:400px;
+	background-color: #FFF3CF;
+}
+.list ul{
+	padding: 10px 10px 10px 10px;
+	display: inline-block;
+}
+.top{
+	width: 100%;
+	height:30px;
+	background: white;
+	color:#030637;
+/*	text-transform: uppercase;*/
+	text-align: center;
+	font-size: 20px;
+}
+.content{
+	background: white;
+	width:100%;
+	height:50px;
+	padding:10px 10px 10px 10px;
+	text-align: center;
+}
+.left-upper{
+	width:50%;
+	height:500px;
+	background:#030637;
+	float:left;
+	color:white;
+	text-align: center;
+}
+.left-upper h1{
+    color:blueviolet;
+    font-size: 20px;
+}
+.right-upper{
+    width:50%;
+    height:500px;
+    background:white;
+    float:right;
+}
+.right-upper img{
+	width:100%;
+	height:500px;
+}
+.left-lower{
+	width:50%;
+    height:500px;
+    background:white;
+    float:left;
+}
+.left-lower img{
+	width:100%;
+	height:500px;
+}
+.right-lower{
+	width:50%;
+	height:500px;
+	background:#030637;
+	float:right;
+	color:white;
+	display: inline-block;
+}
+.right-lower form{
+	text-align: left;
+	padding-left: 20px;
+}
+.right-lower button{
+	background: blue;
+	color:white;
+	width:60%;
+	padding: 10px 10px 10px 10px;
+}
+.right-lower button:hover{
+	background:black;
+	color:white;
+}
+.right-lower h1{
+	color: blueviolet;
+	font-size: 20px;
+	text-align: center;
+}
+.form{
+	width:100%;
+}
+.top{
+	width:100%;
+	height:40px;
+	background:white;
+	color:black;
+}
+.text{
+   width:100%;
+   height:100px;
+   background:white;
+   color:black;
+   text-align: center;
+}
+.left-top{
+	width:50%;
+	height:400px;
+	background: blue;
+	color:white;
+	float:left;
+	text-align: center;
+}
+.left-top h2{
+	color:black;
+}
+.left-top p{
+	padding: 10px 10px 10px 10px;
+}
+.right-top{
+    width:50%;
+    height:400px;
+    float:right;
+}
+.students{
+	width:100%;
+	height:400px;
+}
+.left-down{
+    width:50%;
+    height:500px;
+    float:left;
+}
+.photo{
+	width:100%;
+	height:500px;
+}
+.right-down{
+	width:50%;
+	height:500px;
+	text-align: center;
+	float:right;
+	padding:10px 10px 10px 10px;
+}
+.informantion{
+	width:100%;
+	height:150px;
+	text-align:center ;
+}
+.left-column-top-about{
+	width:50%;
+	height:400px;
+	float:left;
+}
+.student{
+	width:100%;
+	height:400px;
+}
+.right-column-top-about{
+	width:50%;
+	height:400px;
+	text-align: left;
+	background:#030637 ;
+	color:white;
+	float:right;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 30px;
+}
+.right-column-top-about h1{
+	color:blueviolet;
+}
+.left-column-bottom-about{
+	width:50%;
+	height:400px;
+	background:#030637 ;
+	color:white;
+	float:left;
+	padding: 30px 30px 30px 30px;
+}
+.left-column-bottom-about h1{
+	color:blueviolet;
+}
+.right-column-bottom-about{
+	width:50%;
+	height:400px;
+	float:right;
+}
+.bottom{
+	 width:100%;
+	 height:400px;
+}
+.bottom-column-bar{
+	width:100%;
+	height:200px;
+	text-align: center;
+	display: inline-block;
+	padding:30px 30px 30px 30px ;
+}
+.first-row{
+	width:100%;
+	height: 200px;
+	text-align:left;
+	padding: 10px 10px 10px 10px;
+}
+.one{
+	width:25%;
+	height:100px;
+	float:left;
+}
+.two{
+	width:25%;
+	height:100px;
+	float:left;
+}
+.three{
+	width:25%;
+	height:100px;
+	float:left;
+}
+.four{
+	width:25%;
+	height:100px;
+	float:right;
+}
+.second-row{
+	width:100%;
+	height:200px;
+	text-align: left;
+	padding: 10px 10px 10px 10px;
+}
+.five{
+	width:25%;
+	height:100px;
+	float:left;
+}
+.six{
+	width:25%;
+	height:100px;
+	float:left;
+}
+.seven{
+	width:25%;
+	height:100px;
+	float: right;
+}
+.eight{
+	width:25%;
+	height:100px;
+	float:right;
+}
+.last-row{
+	width:100%;
+	height:300px;
+	background:#030637 ;
+	text-align: left;
+}
+.column{
+	width: 25%;
+	height:300px;
+	color:white;
+	float:left;
+}
+.grid-academics-1{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+}
+.grid-a{
+	background: white;
+	color:black;
+}
+.grid-b{
+	background: white;
+}
+.grid-c{
+	background: white;
+	color: black;
+}
+.grid-d{
+	background: white;
+}
+.grid-academics-2{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+}
+.grid-e{
+	background: white;
+}
+.grid-f{
+	background:#030637 ;
+	color:white;
+}
+.grid-g{
+	background: white;
+}
+.grid-h{
+	background: #030637;
+	color:white;
+}
+.grid-academics-3{
+	display:grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+}
+.grid-i{
+	background: white;
+	color:black;
+}
+.grid-j{
+	background: white;
+}
+.grid-k{
+	background: white;
+	color: black;
+}
+.grid-l{
+	background: white;
+}
+.my-images{
+	height:300px;
+	width:230px;
+}
+button:hover{
+	background-color: blueviolet;
+	color: black;
+}
+button{
+	background: blue;
+	color: white;
+}
